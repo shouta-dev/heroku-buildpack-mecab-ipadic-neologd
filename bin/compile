@@ -25,5 +25,6 @@ cd mecab-ipadic-neologd
 
 yes yes | bin/install-mecab-ipadic-neologd -u `whoami` | indent
 
+cd $BUILD_DIR
 cd $VENDOR_DIR
 rm -rf mecab-ipadic-neologd
