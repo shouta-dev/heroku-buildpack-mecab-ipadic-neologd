@@ -24,3 +24,6 @@ git clone --depth 1 $CLONE_URL | indent
 cd mecab-ipadic-neologd
 
 yes yes | bin/install-mecab-ipadic-neologd -u `whoami` | indent
+
+cd $VENDOR_DIR
+rm -rf mecab-ipadic-neologd
